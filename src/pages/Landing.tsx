@@ -37,7 +37,7 @@ export default function Landing() {
               <Link to="/register" className="rounded-lg border border-border px-5 py-3 text-sm font-semibold text-ink hover:bg-subtle">List your shop</Link>
             </div>
           </div>
-          <div className="rounded-2xl border border-border bg-subtle p-6">
+          <div className="min-w-0 rounded-2xl border border-border bg-subtle p-6">
             <p className="mb-4 text-xs font-semibold uppercase tracking-wide text-ink/40">Brake problem — BMW 320d</p>
             <StatusTimeline status="IN_REPAIR" />
           </div>
